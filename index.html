@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="script/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container header__container">
+            <a class="navigation_href" href="#logo"><img class="header__logo" src="img/logo.svg" aria-haspopup="logo" alt="Логотип" aria-label="логотип ShopOnline"></a>
+            <button class="header__burger" aria-haspopup="menu" aria-label="Открыть бургер меню"><img src="img/Vector.png"> Меню</button>
+            <form class="form__header"  aria-haspopup="form" aria-label="форма">
+                <input placeholder="Я ищу..." aria-haspopup="input" aria-label="ввод для поиска" class="header__input">
+                <button class="header__btn" aria-haspopup="button" aria-label="начать поиск"><img src="img/search.png"></button>
+            </form>
+            <nav class="header__navigation navigation" aria-haspopup="nav" aria-label="навигация">
+                <div class="picture">
+                <img class="navigation_img" src="img/person.png">
+                <img class="navigation_img" src="img/shopping_cart.png">
+                <img  class="navigation_img" src="img/favorite.png">
+                </div>
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation_href" href="#profile">Профиль</a></li>
+                    <li class="navigation__item"><a class="navigation_href" href="#shop">Корзина</a></li>
+                    <li class="navigation__item"><a class="navigation_href" href="#favorite">Избранное</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main__container">
+            <div class="main__blocks">
+                <div class="main__banner">
+                    <a class="banner_href" aria-label="-50% на все ноутбуки" href="#timer"> <h1 class="banner_title">-50% на все ноутбуки</h1></a>
+                    <div class="banner__textcontent">
+                        <div class="banner_timer"></div>
+                        <a class="banner_href" aria-label="До конца акции:" href="#timer"> <p class="banner_timer_title">До конца акции:</p></a>
+                    </div>
+                    <div class="timer-numbers" aria-label="таймер" id="timer">
+                        <a  aria-label=" " class="timer-hours" href="#"><span id="timer-hours">00</span></a>
+                        <a aria-label="дня" href="#"><span>&nbsp; дня  </span></a>
+                        <a class="timer-minutes" aria-label=" " href="#"><span id="timer-minutes">00</span></a>
+                        <a aria-label="часов" href="#"><span>&nbsp; часов  </span></a>
+                        <a  class="timer" aria-label=" " href="#"><span id="timer-seconds">00</span></a>
+                        <a aria-label="минут" href="#"><span>&nbsp; минут </span></a>
+                    </div>
+                </div>
+                <div class="main__content">
+                    <div class="main_blocks_one">
+                        <div class="blocks_offer">
+                            <div class="offer">
+                                <div class="offer_one">
+                                    <a aria-label="книга лучший подарок" href="#"><p class="offer_text_one" style="margin-top: 30px"><b>Книга – </b></br> лучший </br>подарок</p></a>
+                                </div>
+                                <div class="offer_two">
+                                    <a aria-label="Время скидок!" href="#"><p class="offer_text_one">Время скидок!</p></a>
+                                    <a aria-label="-25%" href="#"><p class="offer_text_two">-25%</p></a>
+                                </div>
+                            </div>
+                            <div class="offer_discount">
+                                <a aria-label="-40% на кроссовки" href="#"><p class="offer_text_three">-40%</p></a>
+                            </div>
+                        </div>
+                        <div class="offer_two_copy">
+                            <a aria-label="Вторая пара кроссовок в подарок!" href="#"><p class="offer_text_four">Вторая пара кроссовок</br></br></br><b>в подарок!</b></p></a>
+                        </div>
+                        <div class="offer_two_content">
+                            <div class="offer_four">
+                                <a aria-label="Идеи новогодних подарков" href="#"><p class="offer_text_five">Идеи новогодних </br></br></br>подарков</p></a>
+                            </div>
+                            <div class="offer_five">
+                                <a aria-label="-15%" href="#"><p class="offer_text_two_copy">-15%</p></a>
+                                <a aria-label="Выгодно в декабре!" href="#"><p class="offer_text_six">Выгодно в декабре!</p></a>
+                            </div>
+                    </div>
+                </div>
+                </div>
+                <div class="main_blocks_two">
+                    <div class="block_year">
+                        <a aria-label="НОВОГОДНИЕ УКРАШЕНИЯ" href="#"><p class="year_text">НОВОГОДНИЕ УКРАШЕНИЯ</p></a>
+                    </div>
+                    <div class="blocks_offer_content_save">
+                            <div class="dress_discount">
+                                <a aria-label="-55% на платья" href="#"><p class="offer_text_three_copy">-55%</p></a>
+                            </div>
+                        <div class="chemistry_toys">
+                            <div class="chemistry_discount">
+                                <a aria-label="-25%" href="#"><p class="offer_text_two item_disc">-25%</p></a>
+                                <a aria-label="На бытовую химию" href="#"><p class="offer_text_one item">На бытовую химию</p></a>
+                            </div>
+                            <div class="toys_discount"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__product">
+                    <a aria-label="Это выгодно!" href="#"><h2 class="prodict_title">Это выгодно!</h2></a>
+                    <div class="blocks_product">
+                    <div class="product_block_one">
+                        <div class="product_card">
+                        <div class="product item_product1">
+                            <a aria-label="-50% на пару футолок" href="#"><p class="prod_disc">-50%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 1299 ₽" href="#"><div class="text_new_price">1299 ₽</div></a>
+                                <a aria-label="старая цена 2598 ₽" href="#"><div class="text_old_price">2598 ₽</div></a>
+                            </div>
+                            <a aria-label="Пара футболок" href="#"><div class="card_category">Пара футболок</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product2">
+                            <a aria-label="-40% на кроссовки" href="#"><p class="prod_disc">-40%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 2099₽" href="#"><div class="text_new_price">2099₽</div></a>
+                                <a aria-label="старая цена 5938 " href="#"><div class="text_old_price">5938 ₽</div></a>
+                            </div>
+                            <a aria-label="Кроссовки" href="#"><div class="card_category">Кроссовки</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product3">
+                            <a aria-label="-10% на постельное белье" href="#"><p class="prod_disc">-10%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 3902 ₽" href="#"><div class="text_new_price">3902 ₽</div></a>
+                                <a aria-label="старая цена 4490 ₽" href="#"><div class="text_old_price">4490 ₽</div></a>
+                            </div>
+                            <a aria-label="Постельное белье" href="#"><div class="card_category">Постельное белье</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product4">
+                            <a aria-label="-30% на фен" href="#"><p class="prod_disc">-30%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 2999 ₽" href="#"><div class="text_new_price">2999 ₽</div></a>
+                                <a aria-label="старая цена 6030 ₽" href="#"><div class="text_old_price">6030 ₽</div></a>
+                            </div>
+                            <a aria-label="фен" href="#"><div class="card_category">Фен</div></a>
+                        </div>
+                    </div>
+                    <div class="product_block_two">
+                        <div class="product_card">
+                        <div class="product item_product5">
+                            <a aria-label="-10% на постельное белье" href="#"><p class="prod_disc">-10%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 3902 ₽" href="#"><div class="text_new_price">3902 ₽</div></a>
+                                <a aria-label="старая цена 4490 ₽" href="#"><div class="text_old_price">4490 ₽</div></a>
+                            </div>
+                            <a aria-label="Постельное белье" href="#"><div class="card_category">Постельное белье</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product6">
+                            <a aria-label="-30% на фен" href="#"><p class="prod_disc">-30%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 2999 ₽" href="#"><div class="text_new_price">2999 ₽</div></a>
+                                <a aria-label="старая цена 6030 ₽" href="#"><div class="text_old_price">6030 ₽</div></a>
+                            </div>
+                            <a aria-label="фен" href="#"><div class="card_category">Фен</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product7">
+                            <a aria-label="-30% на варежки-мишки" href="#"><p class="prod_disc">-30%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 540 ₽" href="#"><div class="text_new_price">540 ₽</div></a>
+                                <a aria-label="старая цена 890 ₽" href="#"><div class="text_old_price">890 ₽</div></a>
+                            </div>
+                            <a aria-label="Варежки-мишки" href="#"><div class="card_category">Варежки-мишки</div></a>
+                        </div>
+                        <div class="product_card">
+                        <div class="product item_product8">
+                            <a aria-label="-50% на пару футболок" href="#"><p class="prod_disc">-50%</p></a>
+                        </div>
+                            <div class="textcontent_card">
+                                <a aria-label="новая цена 1299 ₽" href="#"><div class="text_new_price">1299 ₽</div></a>
+                                <a aria-label="старая цена 2598 ₽" href="#"><div class="text_old_price">2598 ₽</div></a>
+                            </div>
+                            <a aria-label="Пара футболок" href="#"><div class="card_category">Пара футболок</div></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer_content_one">
+                <a aria-label="логотип ShopOnline" href="#"><img class="footer__logo" src="img/logo%20(1).png" alt="Логотип"></a>
+                <div class="footer_content_catalog">
+                    <a aria-label="Каталог" href="#"><p class="footer_title">Каталог</p></a>
+                <div class="footer_catalog">
+                    <div class="catalog_one">
+                        <a aria-label="Смартфоны" href="#"><p class="footer_text">Смартфоны</p></a>
+                            <a aria-label="Ноутбуки" href="#"><p class="footer_text">Ноутбуки</p></a>
+                        <a aria-label="Ювелирные изделия" href="#"><p class="footer_text">Ювелирные изделия</p></a>
+                        <a aria-label="Одежда" href="#"><p class="footer_text">Одежда</p></a>
+                        <a aria-label="Бытовая техника" href="#"><p class="footer_text">Бытовая техника</p></a>
+                    </div>
+                    <div class="catalog_two">
+                        <a aria-label="Бытовая химия"  class="footer_text" href="#"><p class="footer_text">Бытовая химия</p></a>
+                        <a aria-label="Книги и журналы" href="#"><p class="footer_text">Книги и журналы</p></a>
+                        <a aria-label="Домашний текстиль" href="#"><p class="footer_text">Домашний текстиль</p></a>
+                        <a aria-label="Электроника" href="#"><p class="footer_text">Электроника</p></a>
+                        <a aria-label="Косметика" href="#"><p class="footer_text">Косметика</p></a>
+                    </div>
+                </div>
+                </div>
+                <div class="footer_content_blocks">
+                    <div class="footer_content_catalog">
+                        <a aria-label="Покупателям" href="#"><p class="footer_title">Покупателям</p></a>
+                        <div class="footer_catalog">
+                            <div class="catalog_one">
+                                <a aria-label="Оплата заказа" href="#"><p class="footer_text">Оплата заказа</p></a>
+                                <a aria-label="Условия доставки" href="#"><p class="footer_text">Условия доставки</p></a>
+                                <a aria-label="Условия возврата заказа" href="#"><p class="footer_text">Условия возврата заказа</p></a>
+                                <a aria-label="Блог" href="#"><p class="footer_text">Блог</p></a>
+                            </div>
+                         </div>
+                    </div>
+                <div class="footer_content_catalog">
+                    <a aria-label="Контакты" href="#"><p class="footer_title">Контакты</p></a>
+                        <div class="footer_catalog">
+                            <div class="catalog_one">
+                                <a aria-label="Тел: +7 937 839 23-61" href="#"><p class="footer_text">Тел: +7 937 839 23-61</p></a>
+                                <a aria-label="Email: OnlineShop@gmail.com" href="#"><p class="footer_text" style="width: 350px;">Email: OnlineShop@gmail.com</p></a>
+                                <div class="footer_img_content">
+                                    <a aria-label="whatsapp" href="#"><img class="social" src="img/ant-design_whats-app-outlined.svg"></a>
+                                    <a aria-label="instagram" href="#"><img  class="social" src="img/bi_instagram.svg"></a>
+                                    <a aria-label="youtube" href="#"><img  class="social" src="img/ant-design_youtube-outlined.svg"></a>
+                                    <a aria-label="facebook" href="#"><img  class="social" src="img/feather_facebook.svg"></a>
+                                    <a aria-label="telegram" href="#"><img  class="social" src="img/la_telegram-plane.svg"></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer_content_two">
+                <a aria-label="© OnlineShop, 2021" href="#"><p class="links_one">© OnlineShop, 2021</p></a>
+                <a aria-label="Дизайнер Anastasia Ilina телеграмм канал  @Mrshmallowww" href="#"><p class="links_one">Design by Anastasia Ilina </br>Tg: @Mrshmallowww</p></a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
