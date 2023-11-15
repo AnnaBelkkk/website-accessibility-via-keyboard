@@ -1,6 +1,6 @@
 
 //4-5
-let deadline = '30 november 2023 9:45:00';
+let deadline = '20 november 2023 9:45:00';
 let a;
 let atimer_hours = document.querySelector('.timer-hours')
 let atimer_minutes  =document.querySelector('.timer-minutes')
